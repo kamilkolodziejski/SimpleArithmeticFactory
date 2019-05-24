@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArithmeticFactory", "ArithmeticFactory.vcxproj", "{BED19C44-395C-4230-A132-B9F34D907CBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BED19C44-395C-4230-A132-B9F34D907CBD}.Debug|x64.ActiveCfg = Debug|x64
+		{BED19C44-395C-4230-A132-B9F34D907CBD}.Debug|x64.Build.0 = Debug|x64
+		{BED19C44-395C-4230-A132-B9F34D907CBD}.Debug|x86.ActiveCfg = Debug|Win32
+		{BED19C44-395C-4230-A132-B9F34D907CBD}.Debug|x86.Build.0 = Debug|Win32
+		{BED19C44-395C-4230-A132-B9F34D907CBD}.Release|x64.ActiveCfg = Release|x64
+		{BED19C44-395C-4230-A132-B9F34D907CBD}.Release|x64.Build.0 = Release|x64
+		{BED19C44-395C-4230-A132-B9F34D907CBD}.Release|x86.ActiveCfg = Release|Win32
+		{BED19C44-395C-4230-A132-B9F34D907CBD}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77B2408A-C7F5-4DD9-A29B-7658793477D2}
+	EndGlobalSection
+EndGlobal
