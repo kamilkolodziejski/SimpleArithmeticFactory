@@ -7,6 +7,8 @@
 #include "Factory/MathematicalOperationFactory.h"
 #include "Operations/AbstractMathematicalOperation.h"
 
+const int OPERATIONS_COUNT = 3;
+
 std::string calculateRow(OperationType type, int a, int b)
 {
 	auto factory = MathematicalOperationFactory();
@@ -36,11 +38,11 @@ void generateResultsCsv(std::string filename, int n)
 
 	OperationType type = ADDITION;
 
-	fs << "Operation;A;B;Result;\n";
+	fs << "Id;Operation;A;B;Result;\n";
 	for (int i = 0; i < n; ++i)
 	{
-		fs << generateCalculationRow(ADDITION);
-		ADDITION+1;
+		fs << i<<';'<<generateCalculationRow(type);
+		type = static_cast<OperationType>( (type + 1) % OPERATIONS_COUNT );
 	}
 	fs.close();
 }
