@@ -1,7 +1,7 @@
 #pragma once
 #include <string>
 
-enum OperationType { ADDITION, DIVISION, MULTIPLICATION};
+enum OperationType { ADDITION, DIVISION, MULTIPLICATION };
 
 class AbstractMathematicalOperation
 {
@@ -15,3 +15,4 @@ public:
 	virtual std::string proceed()=0;
 };
 
+ 

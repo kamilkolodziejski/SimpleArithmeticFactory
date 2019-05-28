@@ -15,39 +15,39 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ArithmeticFactory.cpp">
+    <ClCompile Include="Operations/AbstractMathematicalOperation.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
-    <ClCompile Include="AbstractMathematicalOperation.cpp">
+    <ClCompile Include="Operations/AddOperation.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
-    <ClCompile Include="MathematicalOperationFactory.cpp">
+    <ClCompile Include="Main.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
-    <ClCompile Include="AddOperation.cpp">
+    <ClCompile Include="Operations/DivideOperation.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
-    <ClCompile Include="DivideOperation.cpp">
+    <ClCompile Include="Factory/MathematicalOperationFactory.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
-    <ClCompile Include="MultiplyOperation.cpp">
+    <ClCompile Include="Operations/MultiplyOperation.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AbstractMathematicalOperation.h">
+    <ClInclude Include="Operations/AbstractMathematicalOperation.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
-    <ClInclude Include="MathematicalOperationFactory.h">
+    <ClInclude Include="Operations/AddOperation.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
-    <ClInclude Include="AddOperation.h">
+    <ClInclude Include="Operations/DivideOperation.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
-    <ClInclude Include="DivideOperation.h">
+    <ClInclude Include="Factory/MathematicalOperationFactory.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
-    <ClInclude Include="MultiplyOperation.h">
+    <ClInclude Include="Operations/MultiplyOperation.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
   </ItemGroup>
